@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'ZeroStrength Blog',
-  domain: 'blog.sweekdividend.com',
+  domain: process.env.NODE_ENV === "development" ? 'nextjs-notion-starter-kit-three-eosin.vercel.app' : 'blog.sweetdividend.com',
   author: 'Changyun Lee',
 
   // open graph metadata (optional)
