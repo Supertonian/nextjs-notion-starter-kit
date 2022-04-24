@@ -1,4 +1,6 @@
-module.exports = {
+import { siteConfig } from './lib/site-config'
+
+export default siteConfig({
   // where it all starts -- the site's root Notion page (required)
   rootNotionPageId: '215b72062cb244ec8940a7ba5e47fc79',
 
@@ -13,8 +15,6 @@ module.exports = {
 
   // open graph metadata (optional)
   description: 'Personal blog',
-  socialImageTitle: 'Changyun Lee',
-  socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -47,5 +47,6 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
-}
+  pageUrlOverrides: null,
+  navigationStyle: 'default'
+})
