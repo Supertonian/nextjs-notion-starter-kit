@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'ZeroStrength Blog',
-  domain: process.env.NODE_ENV === "development" ? 'nextjs-notion-starter-kit-three-eosin.vercel.app' : 'blog.sweetdividend.com',
+  domain: process.env.NODE_ENV === "development" ? 'nextjs-notion-starter-kit-three-eosin.vercel.app' : 'blog.zetastep.com',
   author: 'Changyun Lee',
 
   // open graph metadata (optional)
