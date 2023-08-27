@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'ZeroStrength Blog',
+  name: 'Supertonian Blog',
   domain: process.env.NODE_ENV === "development" ? 'nextjs-notion-starter-kit-three-eosin.vercel.app' : 'blog.zetastep.com',
   author: 'Changyun Lee',
 
@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: 'zerostrength',
+  github: 'supertonian',
   linkedin: 'zerostrength',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
